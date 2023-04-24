@@ -1,5 +1,5 @@
 body {
-  background: #12151A;
+  background: #ED3237;
   color: #e2e2e2;
   margin: 0;
   font-family: rubik;
@@ -10,9 +10,10 @@ body {
   margin: 0 auto;
 }
 
-.containerLogo {
-  display: flex;
-  align-items: center;
+.containerLogo .logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {

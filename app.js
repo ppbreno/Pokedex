@@ -1,21 +1,24 @@
 const getTypeColor = type => {
-  const normal = '#F5F5F5'
+  const normal = '#75525C'
   return {
     normal,
-    fire: '#FDDFDF',
-    grass: '#DEFDE0',
-    electric: '#FCF7DE',
-    ice: '#DEF3FD',
-    water: '#DEF3FD',
-    ground: '#F4E7DA',
-    rock: '#D5D5D4',
-    fairy: '#FCEAFF',
-    poison: '#98D7A5',
-    bug: '#F8D5A3',
-    ghost: '#CAC0F7',
-    dragon: '#97B3E6',
-    psychic: '#EAEDA1',
-    fighting: '#E6E0D4'
+    fire: '#F60001',
+    grass: '#27CB50',
+    electric: '#E2E32B',
+    ice: '#86D2F5',
+    water: '#1552E1',
+    ground: '#6E491F',
+    rock: '#48190B',
+    fairy: '#E31365',
+    poison: '#9B69DA',
+    bug: '#1C4B27',
+    ghost: '#33336B',
+    dragon: '#448A95',
+    steel: '#60756E',
+    psychic: '#A52A6C',
+    flying: '#94B2C7',
+    dark: '#595978',
+    fighting: '#EF6239'
   }[type] || normal
 }
 
